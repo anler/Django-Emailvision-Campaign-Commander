@@ -1,0 +1,15 @@
+[
+  {
+    "pk": 1, 
+    "model": "ccommander.segment", 
+    "fields": {
+      "name": "Test segment", 
+      "created_at": "2012-02-24T20:40:44.097", 
+      "remote_id": 1345, 
+      "modified_at": "2012-02-24T20:40:46.301", 
+      "sample_type": "ALL", 
+      "sample_rate": null, 
+      "description": ""
+    }
+  }
+]

@@ -1,0 +1,36 @@
+[
+  {
+    "pk": 1, 
+    "model": "ccommander.message", 
+    "fields": {
+      "body": "[EMV TEXTPART] Message body...", 
+      "from_name": "From", 
+      "reply_to_email": "reply@mail.com", 
+      "description": "", 
+      "encoding": "UTF-8", 
+      "is_bounceback": false, 
+      "remote_id": 1703672, 
+      "from_email": "from@mail.com", 
+      "to": "[EMV FIELD]FIRSTNAME[EMV /FIELD]", 
+      "hotmail_unsub_flag": true, 
+      "reply_to_name": "Reply", 
+      "subject": "Test message", 
+      "type": "email", 
+      "created_at": "2012-02-24T18:14:34.626", 
+      "name": "Test message"
+    }
+  },
+  {
+    "pk": 1, 
+    "model": "ccommander.segment", 
+    "fields": {
+      "name": "Test segment", 
+      "created_at": "2012-02-24T20:40:44.097", 
+      "remote_id": 1345, 
+      "modified_at": "2012-02-24T20:40:46.301", 
+      "sample_type": "ALL", 
+      "sample_rate": null, 
+      "description": ""
+    }
+  }
+]

@@ -1,0 +1,12 @@
+{% load i18n admin_static admin_list %}
+{% load url from future %}
+{% load admin_urls %}
+
+{% if synced %}
+<li>
+  <form id="sync-cc" action="{% url cl.opts|admin_urlname:'changelist' %}" method="post">{% csrf_token %}</form>
+  <a href="#" onclick="document.getElementById('sync-cc').submit()">
+    {% trans 'Sync with CC' %}
+  </a>
+</li>
+{% endif %}
